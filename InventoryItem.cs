@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Lab_6_C_
+{
+    public class InventoryItem
+    {
+        public int ItemNo { get; set; }
+        public string Description { get; set; }
+        public double Price { get; set; }
+
+        public override string ToString()
+        {
+            return $"{ItemNo},{Description},{Price}";
+        }
+    }
+}
